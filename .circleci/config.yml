@@ -35,6 +35,7 @@ jobs:
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
           # run lint!
+      - setup_remote_docker
       - run:
           name: run lint
           command: |
