@@ -39,5 +39,6 @@ jobs:
       - run:
           name: run lint
           command: |
+            pip install 'docker-compose==1.8.0'
             . venv/bin/activate
             make lint 
