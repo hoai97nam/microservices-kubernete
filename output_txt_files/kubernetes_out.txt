@@ -14,3 +14,9 @@ project-ml-microservice-kubernetes-7c5dd76dd7-rlzzg   1/1     Running   0       
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
