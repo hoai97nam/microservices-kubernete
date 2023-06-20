@@ -1,5 +1,4 @@
-<include a CircleCI status badge, here>
-
+[![NAMNH124](https://circleci.com/gh/hoai97nam/microservices-kubernete.svg?style=svg)](https://circleci.com/gh/hoai97nam/microservices-kubernete?branch=main)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
