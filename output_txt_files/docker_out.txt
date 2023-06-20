@@ -1,25 +1,16 @@
-2023-06-19 21:25:18  * Serving Flask app "app" (lazy loading)
-2023-06-19 21:25:18  * Environment: production
-2023-06-19 21:25:18    WARNING: Do not use the development server in a production environment.
-2023-06-19 21:25:18    Use a production WSGI server instead.
-2023-06-19 21:25:18  * Debug mode: on
-2023-06-19 21:25:18  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
-2023-06-19 21:25:18  * Restarting with stat
-2023-06-19 21:25:19  * Debugger is active!
-2023-06-19 21:25:19  * Debugger PIN: 399-023-542
-2023-06-19 21:26:14 [2023-06-19 14:26:14,366] INFO in app: JSON payload: 
-2023-06-19 21:26:14 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-2023-06-19 21:26:14 [2023-06-19 14:26:14,395] INFO in app: Inference payload DataFrame: 
-2023-06-19 21:26:14    CHAS     RM    TAX  PTRATIO      B  LSTAT
-2023-06-19 21:26:14 0     0  6.575  296.0     15.3  396.9   4.98
-2023-06-19 21:26:14 [2023-06-19 14:26:14,415] INFO in app: Scaling Payload: 
-2023-06-19 21:26:14    CHAS     RM    TAX  PTRATIO      B  LSTAT
-2023-06-19 21:26:14 0     0  6.575  296.0     15.3  396.9   4.98
-2023-06-19 21:26:14 172.17.0.1 - - [19/Jun/2023 14:26:14] "POST /predict HTTP/1.1" 200 -
-
-Port: 8000
-{
-  "prediction": [
-    20.35373177134412
-  ]
-}
+2023-06-20 17:46:44  * Serving Flask app "app" (lazy loading)
+2023-06-20 17:46:44  * Environment: production
+2023-06-20 17:46:44    WARNING: Do not use the development server in a production environment.
+2023-06-20 17:46:44    Use a production WSGI server instead.
+2023-06-20 17:46:44  * Debug mode: on
+2023-06-20 17:48:04 [2023-06-20 10:48:04,408] INFO in app: JSON payload: 
+2023-06-20 17:48:04 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+2023-06-20 17:48:04 [2023-06-20 10:48:04,437] INFO in app: Inference payload DataFrame: 
+2023-06-20 17:48:04    CHAS     RM    TAX  PTRATIO      B  LSTAT
+2023-06-20 17:48:04 0     0  6.575  296.0     15.3  396.9   4.98
+2023-06-20 17:48:04 [2023-06-20 10:48:04,456] INFO in app: Scaling Payload: 
+2023-06-20 17:48:04    CHAS     RM    TAX  PTRATIO      B  LSTAT
+2023-06-20 17:48:04 0     0  6.575  296.0     15.3  396.9   4.98
+2023-06-20 17:48:04 [2023-06-20 10:48:04,463] INFO in app: output prediction: 
+2023-06-20 17:48:04 [20.35373177134412]
+2023-06-20 17:48:04 172.17.0.1 - - [20/Jun/2023 10:48:04] "POST /predict HTTP/1.1" 200 -
